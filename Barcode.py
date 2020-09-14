@@ -1,10 +1,9 @@
 # import the necessary packages
-import numpy as np
-import argparse
-import imutils
-import cv2
-from pyzbar.pyzbar import decode
-from PIL import Image
+import numpy as np #Numerical python library 
+import imutils #imutils images library
+import cv2 #opencv library
+from pyzbar.pyzbar import decode #bar code decoder libarary
+from PIL import Image #Python image Library
 
 def Barcode_Scanner(path_to_image):
 	# load the image and convert it to grayscale
@@ -62,7 +61,8 @@ def Barcode_Scanner(path_to_image):
 	kernel = np.ones((2, 1), np.uint8)
 	img = cv2.erode(gray, kernel, iterations=2)
 	img = cv2.dilate(img, kernel, iterations=2)
-	print("decoding", decode(img))
+	# print("decoding", decode(img))
+
 	# draw a bounding box arounded the detected barcode and display the
 	# image
 	cv2.drawContours(image, [box], -1, (0, 255, 0), 3)

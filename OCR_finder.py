@@ -1,14 +1,13 @@
 import cv2
-from pytesseract import pytesseract
-from PIL import Image
-import numpy as np
-import os
-from Barcode import Barcode_Scanner
+from pytesseract import pytesseract #Tessaract for ocr
+from PIL import Image #PythonImage Library
+import numpy as np #numerical python file
+import os #Operating System 
+from Barcode import Barcode_Scanner #Barcpde scanner is for barcodes
 
-# preprocessing
+# Files Reader 
 def filesaver(filname, text):
     f = open(filname, "w+")
-
     for i in range(len(text)):
         f.write(f"{text[i]}")
     f.close()
