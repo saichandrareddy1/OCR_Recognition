@@ -53,7 +53,7 @@ How the images are placed in the folder
 :point_up: Above thing will give complete information how the data and the result was saved, total number of the classes in the images floders class names :point_right: **[1, 2, 3, 4, 5]**
 
 
-### [Barcode File](https://github.com/saichandrareddy1/OCR_Recognition/blob/master/Barcode.py)
+## [Barcode File](https://github.com/saichandrareddy1/OCR_Recognition/blob/master/Barcode.py)
 
 :point_right: Barcode file is to decode barcodes
 
@@ -106,8 +106,7 @@ same thing will be return to all the images in the classes
     def threshold(dir_, file_, total)
     ''' threshold will take three files
             1. dir id about path to root directory
-            2. files name of the file it may be image or text
-            3. total is the full path for the image '''
+            2. files name of the file it may be image or text '''
     
 ```
 
@@ -123,7 +122,7 @@ same thing will be return to all the images in the classes
 
 ```
 
-## Algotithm Steps
+## Algorithm Steps
 
 1. Collecting Image
 2. Making Threshold or Gray, Blur
