@@ -50,7 +50,7 @@ How the images are placed in the folder
 
 ```
 
-:top_point: Above thing will give complete information how the data and the result was saved, total number of the classes in the images floders class names :point_right: **[1, 2, 3, 4, 5]**
+:point_up: Above thing will give complete information how the data and the result was saved, total number of the classes in the images floders class names :point_right: **[1, 2, 3, 4, 5]**
 
 
 ### ![Barcode File](https://github.com/saichandrareddy1/OCR_Recognition/blob/master/Barcode.py)
