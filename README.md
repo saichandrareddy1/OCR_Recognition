@@ -11,6 +11,8 @@ How the images are placed in the folder
 
 :point_right: pakage_images/foldernames ***[classes]***
 
+```py
+    # Class 1
     1/01.jpegthres/                   // Result folder
         01.jpegthres+cropimg.png
         01.jpegthres+decode.txt
@@ -31,11 +33,27 @@ How the images are placed in the folder
      2.jpeg
      03.jpeg
 
+    # Class 2
+     2/ .
+        .
+        .
+        .
+        .
+    
+    #Class 3
+     3/ .
+        .
+        .
+        .
+        .
+    # Continue to Class 4 and 5
+
+```
 
 :top_point: Above thing will give complete information how the data and the result was saved, total number of the classes in the images floders class names :point_right: **[1, 2, 3, 4, 5]**
 
 
-### Barcode File 
+### ![Barcode File](https://github.com/saichandrareddy1/OCR_Recognition/blob/master/Barcode.py)
 
 :point_right: Barcode file is to decode barcodes
 
@@ -58,7 +76,7 @@ Text File output [**(decode of the barcode)**](https://github.com/saichandraredd
 same thing will be return to all the images in the classes
 
 
-## OCR_finder file
+## ![OCR_finder file](https://github.com/saichandrareddy1/OCR_Recognition/blob/master/OCR_finder.py)
 
 :point_right: OCR file is used to read the text data from the image
 
@@ -102,6 +120,22 @@ same thing will be return to all the images in the classes
         return dirname_li, filenames_li, total_path
 
         # Will retunn all the folders, images, fullpath 
-        
+
 ```
 
+## Algotithm Steps
+
+1. Collecting Image
+2. Making Threshold or Gray, Blur
+3. Passing into the Pytessaract function
+4. Create folder for the result
+5. Extracting text data from the image
+6. Saving text data 
+7. passing data into the barcode function 
+8. Crop barcode from the image
+9. Decode the image
+10. Save it into the folder
+11. Check the pakage_image folder ***Done*** 
+
+
+## Thanks 
