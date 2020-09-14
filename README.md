@@ -53,7 +53,7 @@ How the images are placed in the folder
 :point_up: Above thing will give complete information how the data and the result was saved, total number of the classes in the images floders class names :point_right: **[1, 2, 3, 4, 5]**
 
 
-### ![Barcode File](https://github.com/saichandrareddy1/OCR_Recognition/blob/master/Barcode.py)
+### [Barcode File](https://github.com/saichandrareddy1/OCR_Recognition/blob/master/Barcode.py)
 
 :point_right: Barcode file is to decode barcodes
 
@@ -76,7 +76,7 @@ Text File output [**(decode of the barcode)**](https://github.com/saichandraredd
 same thing will be return to all the images in the classes
 
 
-## ![OCR_finder file](https://github.com/saichandrareddy1/OCR_Recognition/blob/master/OCR_finder.py)
+## [OCR_finder file](https://github.com/saichandrareddy1/OCR_Recognition/blob/master/OCR_finder.py)
 
 :point_right: OCR file is used to read the text data from the image
 
