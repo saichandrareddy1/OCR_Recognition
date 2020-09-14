@@ -39,12 +39,11 @@ How the images are placed in the folder
 
 :point_right: Barcode file is to decode barcodes
 
-//py
+```py
 
     def Barcode_Scanner(path_to_image)
         return crop_ima, decode(img)
-
-//
+```
 
 :point_right: Is the function which takes the image path and will return crop images **(Barcode)**, decode(image) **(decode of the barcode)**
 
@@ -63,8 +62,46 @@ same thing will be return to all the images in the classes
 
 :point_right: OCR file is used to read the text data from the image
 
-// py 
+```python 
 
     def filesaver(filname, text):
+        # Will save text file in target folder  
 
-//
+```
+
+```py
+    
+    def gray(img):
+        # Will return the gray Image
+
+```
+
+```py
+
+    def blur(img) 
+    # will return blur image
+
+```
+
+```py 
+
+    def threshold(dir_, file_, total)
+    ''' threshold will take three files
+            1. dir id about path to root directory
+            2. files name of the file it may be image or text
+            3. total is the full path for the image '''
+    
+```
+
+```py
+
+    def collectimages():
+
+        # Will collect all the images from the folders
+
+        return dirname_li, filenames_li, total_path
+
+        # Will retunn all the folders, images, fullpath 
+        
+```
+
